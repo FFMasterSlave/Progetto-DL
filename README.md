@@ -13,11 +13,13 @@ Visualization tools to examine feature embeddings, retraining, and unlearning pr
 ## Usage
 All the code is inside the *contrastive_unlearning_project.ipynb*, so please refer to that. It's a Jupyter notebook with all the steps and more informations about the implementation.
 Inside the other directories you'll find some images represenatative of the results of the pipeline in the various scenarios.
+
 **ATTENTION**: as said in both the report and the notebook, the image results are just from a run because the unlearning algorithm is not deterministic.
 This means that if you run the notebook, you can get lucky and see good results or be unlucky and find some cheap outcomes. 
 
 ## Installation
 You'll fine all the necessary libraries inside a cell on the notebook.
+
 **BE CAREFUL**: it is suggested to run the notebook on GPU, **however**, if you do it **MAKE SURE** you have the correct installation of CUDA toolkit. My version was the 11.8.
 I didn't include it inside the notebook cause it has the potential of breaking everything.
 
