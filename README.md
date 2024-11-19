@@ -10,7 +10,7 @@ The approach is inspired by the article *"A Contrastive Approach to Machine Unle
 The project includes:
 
   - Two main pipelines for single-class and random-sample unlearning.
-  - ResNet architectures customized for Euclidean and hyperbolic embeddings, using Hypll library for hyperbolic transformations.
+  - ResNet architectures customized for Euclidean and hyperbolic embeddings, using [Hypll library](https://github.com/maxvanspengler/hyperbolic_learning_library) for hyperbolic transformations.
   - Visualization tools to examine feature embeddings, retraining, and unlearning progress, with 3D t-SNE and convex hulls for better interpretability.
 
 Folowing the original article, I used [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) and [SVHN](http://ufldl.stanford.edu/housenumbers/) datasets to benchmark performance across unlearning scenarios and compare hyperbolic embeddings with standard Euclidean ones.
