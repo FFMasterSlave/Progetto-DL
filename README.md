@@ -23,10 +23,10 @@ It's a Jupyter notebook with detailed steps and more informations about the theo
 Inside the directory *experiments* you'll find some images represenatative of the results of the pipeline in the various scenarios.
 
 ## Installation
-All the necessary libraries will be properly installed through the notebook except for the **torch** package and **Nvidia Cuda Toolkit**.
+All the necessary libraries will be properly installed through the notebook except for the **torch** package and **Nvidia Cuda** library.
 
 These packages are **essential**, so why i didn't include them?
 
-Unfortunately, the Nvidia Cuda Toolkit is hardware dependent so you must install it on your own.
+Unfortunately, the Cuda library is hardware dependent so you must install it on your own.
 
 The whole project was done with the latest version of Pytorch for Cuda 11.8.
